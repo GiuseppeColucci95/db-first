@@ -11,13 +11,13 @@ PUSHA -->
 
 ## Table columns:
 
--id: BIGINT() - PRIMARY KEY - AUTO_INCREMENT - NOT NULL
--make: VARCHAR(20) - NOT NULL
--model: VARCHAR(255) - NOT NULL
--year: YEAR() - NOT NULL
--price: FLOAT(10,2) - NOT NULL
--km: INT() - NOT NULL
--kW: SMALLINT() - NULL
--gear shift: VARCHAR(15) - NULL
--cv: SMALLINT() - NULL
--note: TEXT() - NULL
+- id: BIGINT() - PRIMARY KEY - AUTO_INCREMENT - NOT NULL
+- make: VARCHAR(20) - NOT NULL
+- model: VARCHAR(255) - NOT NULL
+- year: YEAR() - NOT NULL
+- price: FLOAT(10,2) - NOT NULL
+- km: INT() - NOT NULL
+- kW: SMALLINT() - NULL
+- gear_shift: VARCHAR(15) - NULL
+- cv: SMALLINT() - NULL
+- note: TEXT() - NULL
